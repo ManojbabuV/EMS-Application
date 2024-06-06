@@ -1,0 +1,18 @@
+ .Shop {
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background-color: #ffffff;
+  }
+  
+
+ 
+ 
+.MuiBox-root{
+  background-color: aliceblue;
+  color: black;
+}
+.MuiButtonBase-root   {
+    background-color: #ffffff;
+    color: black;
+}

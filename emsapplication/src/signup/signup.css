@@ -1,0 +1,269 @@
+.kindom {
+  display: flex;
+ 
+  width: 0rem;
+  /* margin-top: 0px; */
+  background-color: #43cad9;
+  margin-left: 250px; 
+  }
+  
+  .resultContainer, .historyItem { 
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .thala{
+    color: #db995c;
+    /* margin-bottom: 30px; */
+    margin-left: 10px;
+    margin-right: 247px;
+    background-color: #bbd5d5;
+    font-size: 45px;
+    margin-bottom:30px;
+    /* margin-top: 0px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+  /* .img1{
+    width: 490px;
+    flex-direction: column;
+   height: 790px;
+   margin-bottom: 10px;
+   margin-left: 60px; 
+   border-radius: 20px;
+   border-color: rgb(231, 176, 95);
+   
+ } */
+
+  
+  .historyContainer {
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-grow: 5;
+    justify-content: flex-start;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+  }
+  
+  .ride {
+    display: flex;
+    flex-direction: column;
+    background-color: #fde4cc;
+    align-items: flex-start;
+    justify-content: center;
+   
+  }
+  
+  .inputContainer > .errorLabel {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .getter {
+    height: 50px;
+    width: 345px; 
+    margin-left: 51px;
+    font-size: large;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1.9px solid #ffffff;
+    background-color: #ffffff;
+    padding-left: 8px;
+  }
+  
+  .single {
+    padding: 12px 10px;
+    border: 0;
+    width: 200px;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+    background-color:  #58a8ca ;
+    border-radius: 34px;
+    margin-top: 10px;
+    color: #fefefe;
+    margin-left: 130px; 
+    margin-right: 120px;
+    margin-bottom: 145px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif; 
+  }
+  .think{
+    border-radius: 25px;
+    background:no-repeat;
+    width: 130px;
+    margin-top: 0px;
+    margin-left:60px ;
+    height: 120px;
+  }
+  .single:hover{
+    background-color: #e8aa8f
+  }
+  
+  .b2:hover {
+    background:#aa67da ;
+  }
+  .hand1 {
+    display: flex;
+    background-color: #fde4cc;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid; 
+   /* background-color: #f9d6d6; */
+    font-size: 0px;
+    height: 690px;
+     width: 530px;
+    border-radius: 20px;
+    /* border-right: 120px; */
+    border-width: 4px;
+    border-color: #125776 ;
+    margin-left: 150px;  
+    margin-right: 240px;   
+     
+}
+.img1 {
+  width: 15%;
+  position:relative; 
+  position: relative;    
+  height: 15%; 
+  display: flex;
+  flex-direction: col;
+  position: relative;
+  border-radius: 60px;
+   
+  /* background-color: #fcfcfc; */
+}
+/* *{
+background-color: #4073a5;
+} */
+/* *{
+  background-color:#cad6d6;
+} */
+*{
+  background-color: #78caf0;
+}
+.nosty{
+  width: 0px;
+  height: 0px;
+  display: flex;
+  flex-direction: column;
+  border: #4073a5;
+  margin-top:0px;
+}
+.animal {
+margin-left:1060px;
+display: flex;
+position: relative;
+background-color: #5bcba7;
+border: 0 solid #e2e8f0;
+border-radius: 1.5rem;
+box-sizing: border-box;
+color: #0d172a;
+ 
+cursor: pointer;
+display: inline-block;
+font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 1;
+padding: 1rem 1.6rem;
+text-align: center;
+text-decoration: none #0d172a solid;
+text-decoration-thickness: auto;
+transition: all .1s cubic-bezier(.4, 0, .2, 1);
+box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+user-select: none;
+/* margin-right: 0px; */
+margin-top:20px;
+
+color: #fff;  
+
+margin-right: 30px;  
+cursor: pointer;
+
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+.verify{
+  background-color: #f292af;
+  height: 30px;
+  width: 120px;
+  margin-left: 20rem;
+  margin: opx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  
+}
+
+.animal:hover {
+background-color: #202536;
+color: #fff;
+}
+.search {
+display: inline-block;
+}
+/* .right {
+    flex: 1;
+    width: 720px; 
+    
+    height: auto; 
+    border-radius: 20px;
+    position: relative; 
+    /* background-image: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+    background-size: cover;
+    border-top-left-radius: 4px; 
+    border-bottom-left-radius: 4px; 
+} */
+
+/* CSS */
+
+
+
+  * { box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+
+body {
+  
+ 
+  font-family: 'Rubik', sans-serif;
+}
+
+.learn{
+  background-color: #bbd5d5;
+  height: 906px;
+}
+@media  screen and (width: 5088px ){
+  .learn{
+   height: 2421px;
+  }
+  }
+@media  screen and (width: 3816px ){
+  .learn{
+   height: 1815px;
+  }
+  }
+@media  screen and (width: 2544px ){
+  .learn{
+   height: 1210px;
+  }
+  }
+@media  screen and (width: 1908px ){
+  .learn{
+   height: 909px;
+  }
+  }

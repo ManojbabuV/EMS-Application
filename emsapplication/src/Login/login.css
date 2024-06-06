@@ -1,0 +1,719 @@
+.king {
+  display: flex;
+  width: 0rem;
+  margin: 0;
+  margin-left: 250px;
+}
+
+.resultContainer,
+.historyItem {
+  flex-direction: row;
+  display: flex;
+  width: 400px;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  margin: 0;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.book {
+  color: #db995c;
+  background-color: #bbd5d5;
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  margin: 0;
+}
+
+.gold {
+  display: flex;
+  background-color: #fde4cc;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.rock {
+  height: 52px;
+  width: 370px;
+  margin-left: 31px;
+  font-size: large;
+  border-radius: 10px;
+  border: 1.9px solid #ffffff;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+
+.watch {
+  padding: 12px 10px;
+  border: 0;
+  width: 220px;
+  margin-bottom: 135px;
+  font-size: 20px;
+  height: 44px;
+  background-color: #69a5c0;
+  border-radius: 34px;
+  margin-top: 0px;
+  color: #ffffff;
+  margin-left: 110px;
+  margin-right: 150px;
+  text-align: center;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+}
+
+.r23 a {
+  cursor: pointer;
+  color: #4d83d9;
+  font-size: 13px;
+}
+
+.watch:hover {
+  background: #e8aa8f;
+}
+
+.mywork {
+  background-color: #bbd5d5;
+  height: 606px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media  screen and (width: 5088px ){
+  .mywork{
+   height: 2421px;
+  }
+  }
+@media  screen and (width: 3816px ){
+  .mywork{
+   height: 1815px;
+  }
+  }
+@media  screen and (width: 2544px ){
+  .mywork{
+   height: 1210px;
+  }
+  }
+@media  screen and (width: 1908px ){
+  .mywork{
+   height: 909px;
+  }
+  }
+@media  only screen and (width: 1696px ){
+  .mywork{
+   height: 807.5px;
+  }
+  }
+@media  only screen and (width: 1590px ){
+  .mywork{
+   height: 757.5px; 
+  }
+  }
+@media  only screen and (width: 1413.33px ){
+  .mywork{
+   height: 673.5px; 
+  }
+  } 
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.skin {
+  color: #103f6d;
+  font-size: 20px;
+  background-color: #fde4cc;
+  margin-top: 20px;
+  margin-left: 14.5rem;
+} 
+.search {
+  display: inline-block;
+} 
+.logo2 {
+  background: no-repeat;
+  margin: 0px;
+  width: 130px;
+  height: 120px;
+background-color: #bbd5d5;
+}
+@media  only screen and (width: 1413.33px ){
+  .logo2{
+    margin-top: 0px; 
+  }
+  }
+@media  screen and (width: 2544px ){
+  .logo2{
+   margin-left: 8rem;
+   margin-top:1rem;
+  }
+}
+.enter {
+  border-radius: 25px;
+  background: no-repeat;
+}
+
+.handle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fde4cc;
+  border: 1px solid;
+  font-size: 30px;
+  border-width: 2px;
+  height: 380px;
+  width: 445px;
+  border-radius: 20px;
+  margin-top: 80px;
+  border-color: #125776;
+  margin-left: 440px;
+}
+@media  screen and (max-width: 1272px){
+  .handle{
+  
+   margin-top:0px;
+  } 
+  }
+  @media  screen and (width: 2544px ){
+    .handle{
+     margin-left: 33rem;
+     
+    }
+  }
+   
+
+.train {  
+  display: flex;
+  margin-left: 1060px;
+  position: relative;
+  background-color: #51d2bc;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+@media  screen and (max-width: 656px){
+  .train{
+    margin-left: 230px;
+  }
+  }
+  @media  only screen and (width: 1413.33px ){
+    .train{
+      margin-left: 75rem; 
+    }
+    }
+  @media  screen and (width: 2544px ){
+    .train{
+     margin-left: 80rem;
+    }
+  }
+
+.train:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   
+.king {
+  display: flex;
+  width: 0rem;
+  margin: 0;  
+  margin-left: 250px;
+}
+
+.resultContainer,
+.historyItem {
+  flex-direction: row;
+  display: flex;
+  width: 400px;
+  margin: 0; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  margin: 0; 
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.book {
+  color: #db995c;
+  background-color: #bbd5d5;
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  margin: 0;
+ 
+}
+
+.gold {
+  display: flex;
+  background-color: #fde4cc;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.rock {
+  height: 52px;
+  width: 370px;
+  margin-left: 31px;
+  font-size: large;
+  border-radius: 10px;
+  border: 1.9px solid #ffffff;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+
+.watch {
+  padding: 12px 10px;
+  border: 0;
+  width: 220px;
+  margin-bottom: 135px;
+  font-size: 20px;
+  height: 44px;
+  background-color: #69a5c0;
+  border-radius: 34px;
+  margin-top: 0px;
+  color: #ffffff;
+  margin-left: 110px;
+  margin-right: 150px;
+  text-align: center;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+}
+
+.r23 a {
+  cursor: pointer;
+  color: #4d83d9;
+  font-size: 13px;
+}
+
+.watch:hover {
+  background: #e8aa8f;
+}
+
+ 
+.mywork {
+  background-color: #bbd5d5;
+  height: 606px;  
+  padding: 20px;  
+  box-sizing: border-box;  
+}
+
+@media only screen and (max-width: 1168px) {
+  .mywork {
+    height: 606px;  
+    padding: 10px; 
+  }
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.skin {
+  color: #103f6d;
+  font-size: 20px;
+  background-color: #fde4cc;
+  margin-top: 20px;
+  margin-left: 14.5rem;
+}
+
+.search {
+  display: inline-block;
+}
+
+.logo2 {  
+  background: no-repeat;
+margin:0px;
+   
+  width: 130px;
+  height: 120px;
+}
+
+.enter {
+  border-radius: 25px;
+  background: no-repeat;  
+}
+
+.handle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fde4cc;
+  border: 1px solid;
+  font-size: 30px;
+  border-width: 2px;
+  height: 380px;
+  width: 445px;
+  border-radius: 20px;
+  margin: 0; 
+  border-color: #125776;
+  margin-left: 150px;
+}
+
+ 
+ 
+
+.train {
+  display: flex;
+  margin-left: 1060px;
+  position: relative;
+  background-color: #51d2bc;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.train:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .train {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+ 
+
+@media screen and (max-width: 1200px) {
+  .king {
+    margin-left: 150px;  
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .king {
+    margin-left: 100px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .king {
+    flex-direction: column; 
+    margin-left: 0;  
+  }
+  
+  .handle {
+    width: 90%;  
+    margin: 20px auto;  
+  }
+  
+  .train {
+    margin-left: 0;  
+  }
+}
+  */

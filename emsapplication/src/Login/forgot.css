@@ -1,0 +1,205 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input[type="email"],
+  .form-container input[type="text"],
+  .form-container input[type="password"] {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+/* forgot.css */
+/* *{
+  background-color: #4072a7;
+} */
+.hji {
+    margin-top: 120px ;
+    padding: 20px;
+    margin-left:250px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 9px;
+    font-size: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+   width: 120px;
+   border-radius:7px;
+   height: 30px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pwd-reset-success {
+    color: green;
+  }
+  
+  .pwd-reset-error {
+    color: red;
+  }
+  
+
+
+
+
+  /* ForgotPassword.css */
+/* 
+.container {
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #f39292;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 58px;
+    margin-left: 148px;
+    font-weight: bold;
+    color: #4790de;
+    font-size: 28px;
+  }
+  
+  input[type='email'],
+  input[type='text'],
+  input[type='password'] {
+    width: 321px;   
+     padding: 15px;
+    background-color: #d0dfdf;
+    margin-bottom: 45px;
+    margin-left: 145px;
+    border: 0.9px solid #95edf3;
+    border-radius: 5px;
+  }
+  
+  .button1 {
+    padding: 10px 20px;
+    background-color: #51d27e;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button2 {
+    padding: 10px 20px;
+    background-color: #3790f0;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button3 {
+    padding: 10px 20px;
+    background-color: #af54b5;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .hji{
+    border: 2px solid;
+    margin-top: 70px;
+    width: 500px;
+    background-image: url("https://unblast.com/wp-content/uploads/2020/03/Illustrator-Vector-Illustration-1.jpg");
+    margin-left: 320px;
+    background: no-repeat;
+     border-color: #fccdd7;
+  
+     box-shadow: 12px 12px 12px rgba(243, 175, 175, 0.5);
+    box-shadow:11px 17px 16px 18px ;
+    height: 390px;
+  }
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 5px;
+  }
+     */
